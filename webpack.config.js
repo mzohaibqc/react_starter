@@ -5,12 +5,13 @@ var path = require('path');
 module.exports = {
   context: path.join(__dirname, "src"),
   devtool: debug ? "inline-sourcemap" : null,
-  entry: "./js/client.js",
+  entry: ["./js/client.js", './styles/main.css'],
   resolve: {
   modules: ['node_modules', 'src'],
     alias: {
       'mdi': path.join(__dirname, './node_modules/mdi/css/materialdesignicons.min.css'),
-      'mdif': path.join(__dirname, './node_modules/material-design-iconic-font/dist/css/material-design-iconic-font.min.css')
+      'mdif': path.join(__dirname, './node_modules/material-design-iconic-font/dist/css/material-design-iconic-font.min.css'),
+      'styles': path.join(__dirname, './src/styles/main.css')
      }
 },
   module: {
@@ -32,7 +33,7 @@ module.exports = {
     ]
   },
   output: {
-    path: __dirname + "/src/",
+    path: __dirname + "/public/",
     filename: "client.min.js"
   },
   plugins: debug ? [] : [

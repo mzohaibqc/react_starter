@@ -12,7 +12,7 @@ class About extends Component {
       </div>
       <div class="card-stacked">
         <div class="card-content">
-          <span class="card-title">Hi! Zohaib here..</span>
+          <span class="card-title">Hi! Zohaib Ijaz here..</span>
           <p>I am electrical engineer. My major subjects are related to software and computer engineering. I have keen interest in knowing new technologies and languages and apply them to create new things. Currently I am working as a team lead in QC technologies and there are 6 Members in my team. Most of the work I am doing is in python (Flask, SqlAlchemy etc.) but I also work as a front-end developer (Angular, Material Design, gulp).
 <hr></hr>
 I love javascript and my most of answers on Stackoverflow are in javascript. I love helping people whether it is coding or real brutal life.
